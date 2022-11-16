@@ -19,6 +19,7 @@ class Pantalla2Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Pantalla2(),
     );
   }
